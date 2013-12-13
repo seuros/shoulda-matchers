@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Shoulda::Matchers::ActiveModel::EnsureInclusionOfMatcher do
+describe Shoulda::Matchers::ActiveModel::ValidateInclusionOfMatcher do
   context 'with no validations' do
     it 'rejects an array which does not have a validator defined' do
       define_model(:example, :attr => :string).new.

@@ -141,6 +141,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.38)
+    yard (0.8.7.3)
 
 PLATFORMS
   ruby
@@ -168,3 +169,4 @@ DEPENDENCIES
   shoulda-matchers!
   sqlite3
   therubyrhino
+  yard
